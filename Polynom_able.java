@@ -35,7 +35,7 @@ import java.util.Iterator;
 public interface Polynom_able extends cont_function{
 	/**
 	 * Add p1 to this Polynom
-	 * @param p1
+	 * @param polynom p1
 	 */
 	public void add(Polynom_able p1);
 	/**
@@ -61,7 +61,7 @@ public interface Polynom_able extends cont_function{
 	public boolean equals (Polynom_able p1);
 	/**
 	 * Test if this is the Zero Polynom
-	 * @return
+	 * @return true if zero polynom else false
 	 */
 	public boolean isZero();
 	/**
