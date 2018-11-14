@@ -1,6 +1,6 @@
 # Polynom
 
-Description:
+# Description:
 The project actually is about polynomial.
 The project includes 3 classes:
 
@@ -36,20 +36,21 @@ In addition the projects includes 3 interfaces:
 *cont_function
 
 
-Prerequisites:
+# Prerequisites:
 Installation a workspace that works with java is needed.
 
-Running the tests:
+# Running the tests:
 A test file is attached to the project. You just need to run it.
 
-Built With:
+# Built With:
 
 Eclipse
 
-Authors:
+# Authors:
 Naor Eliav and michael garusi
 
-Acknowledgments:
+# Acknowledgments:
 In the project I used Wikipedia to write a number of functuations in
 the class.
 I checked what is "Reimann integral" to write the "area" function.
+I used library called "garl".
