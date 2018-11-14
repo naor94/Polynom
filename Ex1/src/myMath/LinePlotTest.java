@@ -46,8 +46,11 @@ public class LinePlotTest extends JFrame {
    
    
     public static void main(String[] args) {
-    	Polynom p=new Polynom("0.2*x^4-1.5*x^3+3.0*x^2-1*x^1-5*x^0");
-        LinePlotTest frame = new LinePlotTest(p,-2,6);
-        frame.setVisible(true);
+    	Polynom p=new Polynom("0.2*x^4-1.5*x^3+3.0*x^2-1*x^1-5*x^0"); // creats a polynom 
+        
+    	// calls to a plot construction, input: 1.p- polynom. 2.the range of the polynom display in the graph
+    	LinePlotTest frame = new LinePlotTest(p,-2,6);				   
+        
+    	frame.setVisible(true); // display the polynom graph 
     }
 }
