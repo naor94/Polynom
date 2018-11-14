@@ -309,7 +309,7 @@ public class Polynom implements Polynom_able{
 	 * @param eps positive step value
 	 * @return the approximated area below X-axis below this function bounded in the range of [x0,x1]
 	 */
-	public double areaNew(double x0, double x1, double eps) {
+	public double areaUnderXAxis(double x0, double x1, double eps) {
 		double x=0;
 		for (double i = x0; i < x1; i=i+eps) {
 			double z=f(i);
@@ -317,7 +317,7 @@ public class Polynom implements Polynom_able{
 			x=x+(z*eps);
 			}
 		}
-		return x;
+		return x*-1;
 	}
 
 	@Override
