@@ -11,8 +11,8 @@ import de.erichseifert.gral.plots.lines.DefaultLineRenderer2D;
 import de.erichseifert.gral.plots.lines.LineRenderer;
 import de.erichseifert.gral.ui.InteractivePanel;
 
-public class LinePlotTest extends JFrame {
-    public LinePlotTest(Polynom p,double X,double Y) {
+public class DrawGraph extends JFrame {
+    public DrawGraph(Polynom p,double X,double Y) {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(800, 600);
         // Insert rest of the code here
@@ -46,7 +46,7 @@ public class LinePlotTest extends JFrame {
    
     public static void main(String[] args) {
     	Polynom p=new Polynom("0.2*x^4-1.5*x^3+3.0*x^2-1*x^1-5*x^0");
-        LinePlotTest frame = new LinePlotTest(p,-2,6);
+        DrawGraph frame = new DrawGraph(p,-2,6);
         frame.setVisible(true);
     }
 }
