@@ -13,7 +13,7 @@ import javax.management.modelmbean.ModelMBeanNotificationBroadcaster;
  * This class represents a Polynom with add, multiply functionality and other functions.
  
 
- *@author Naor eliav
+ *@author Naor eliav and michael garusi 
  */
 public class Polynom implements Polynom_able{
 
