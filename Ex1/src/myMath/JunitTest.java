@@ -125,6 +125,15 @@ class JunitTest {
 		
 	}
 	@Test
+	 void testAre2() {
+		Polynom p2=new Polynom("2*x^0");
+		double x=0.0;
+		double result=p2.areaUnderXAxis(1, 2,0.001);
+		assertEquals(x,result,0.01);
+		
+		
+	}
+	@Test
 	 void  testIsZero() {
 		Polynom p1=new Polynom("2*x^0-3*x^2+1*x^3");
 		assertFalse(p1.isZero());

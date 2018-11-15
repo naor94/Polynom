@@ -11,7 +11,7 @@ import de.erichseifert.gral.plots.lines.DefaultLineRenderer2D;
 import de.erichseifert.gral.plots.lines.LineRenderer;
 import de.erichseifert.gral.ui.InteractivePanel;
 /*
- * this class has consructor that get 3 arguments:
+ * This class has consructor that get 3 arguments:
  *  Object Polynom, int x, int y. The constructor gets the Polynom amd the range that difined by x and y and 
  *  draws the graph between the range. It also indicates the extreme points of the graph
  

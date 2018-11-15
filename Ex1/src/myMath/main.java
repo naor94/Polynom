@@ -15,6 +15,10 @@ public class main {
 		double z=p1.root(-10,10, 0.001);
 		System.out.println(z);
 		System.out.println(p.f(z));
+		Polynom p2=new Polynom("2*x^0");
+		double u=2;
+		double result=p2.areaUnderXAxis(1, 2,0.001);
+		System.out.println(result);
 
 		
 
