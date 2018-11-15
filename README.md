@@ -23,10 +23,11 @@ Some of the functions are:
 For more functions and explanations you are welcome to look at the
 javadoc file which is attached to the project.
 
-*LinePlotTest class- this class has consructor that get 3 arguments: Object Polynom, int x, int y.
-The constructor gets the Polynom amd the range that difined by x and y and draws the graph between the range.
+*LinePlotTest class- This class has consructor that get 3 arguments: Object Polynom, int x, int x1.
+The constructor gets the Polynom amd the range that difined by x and x1 and draws the graph between the range.
 It also indicates the extreme points of the graph.
 For drawing the graph i used the useful library called "gral".
+The function does not draw a straight line.
 
 *JunitTest class that checks if the methos of the project are  corect.
 
@@ -38,6 +39,7 @@ In addition the projects includes 3 interfaces:
 
 # Prerequisites:
 Installation a workspace that works with java is needed.
+You need to download the attached jar file called "gral".
 
 # Running the tests:
 A test file is attached to the project. You just need to run it.
