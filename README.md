@@ -23,7 +23,7 @@ Some of the functions are:
 For more functions and explanations you are welcome to look at the
 javadoc file which is attached to the project.
 
-*Graph class- this class has consructor that get 3 arguments: Object Polynom, int x, int y.
+*LinePlotTest class- this class has consructor that get 3 arguments: Object Polynom, int x, int y.
 The constructor gets the Polynom amd the range that difined by x and y and draws the graph between the range.
 It also indicates the extreme points of the graph.
 For drawing the graph i used the useful library called "gral".
