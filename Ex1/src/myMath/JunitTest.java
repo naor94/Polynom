@@ -125,6 +125,7 @@ class JunitTest {
 		
 	}
 	@Test
+	//u
 	 void testAre2() {
 		Polynom p2=new Polynom("2*x^0");
 		double x=0.0;
